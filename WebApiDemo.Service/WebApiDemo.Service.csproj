@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiDemo.IRepository\WebApiDemo.IRepository.csproj" />
+    <ProjectReference Include="..\WebApiDemo.IServices\WebApiDemo.IServices.csproj" />
+    <ProjectReference Include="..\WebApiDemo.Repository\WebApiDemo.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiDemo</name>
+    </assembly>
+    <members>
+        <member name="M:WebApiDemo.Auth.JwtHelper.SerializeJwt(System.String)">
+            <summary>
+            解析
+            </summary>
+            <param name="jwtStr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.TestController.Sum(System.Int32,System.Int32)">
+            <summary>
+            求和
+            </summary>
+            <param name="i"></param>
+            <param name="j"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.Hello">
+            <summary>
+            Hello 请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.UserInfo(WebApiDemo.Model.Model.User)">
+            <summary>
+            获取User实体
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.Login(System.String)">
+            <summary>
+            获取Token令牌
+            </summary>
+            <param name="role"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.Admin">
+            <summary>
+            需要admin权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.System">
+            <summary>
+            需要System权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.#ctor(WebApiDemo.IServices.ITodoService)">
+            <summary>
+            控制器注入service依赖
+            </summary>
+            <param name="todo"></param>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.GetTodoList">
+            <summary>
+            接口测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.AddTodo(WebApiDemo.Model.Model.TodoItem)">
+            <summary>
+            新增
+            </summary>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.Delete(WebApiDemo.Model.Model.TodoItem)">
+            <summary>
+            删除
+            </summary>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.Update(WebApiDemo.Model.Model.TodoItem)">
+            <summary>
+            更新
+            </summary>
+            <param name="todoItem"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.Get(System.Int32)">
+            <summary>
+            查询
+            </summary>
+            <param name="ID"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

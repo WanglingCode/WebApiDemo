@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiDemo.Model</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiDemo.Model.MessageModel`1">
+            <summary>
+            通用返回消息类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:WebApiDemo.Model.MessageModel`1.status">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.MessageModel`1.success">
+            <summary>
+            操作是否成功
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.MessageModel`1.msg">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.MessageModel`1.response">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.Model.TokenModel.Uid">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.Model.TokenModel.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.Model.User.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.Model.User.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.Model.User.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="T:WebApiDemo.Model.PageModel`1">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.PageModel`1.page">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.PageModel`1.pageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.PageModel`1.dataCount">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.PageModel`1.pageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.PageModel`1.data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="T:WebApiDemo.Model.TableModel`1">
+            <summary>
+            表格数据，支持分页
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.TableModel`1.Code">
+            <summary>
+            返回编码
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.TableModel`1.Msg">
+            <summary>
+            返回信息
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.TableModel`1.Count">
+            <summary>
+            记录总数
+            </summary>
+        </member>
+        <member name="P:WebApiDemo.Model.TableModel`1.Data">
+            <summary>
+            返回数据集
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,13 @@
+C:\Users\WL\source\repos\WebApiDemo\EFBase\bin\Debug\netcoreapp3.1\EFBase.deps.json
+C:\Users\WL\source\repos\WebApiDemo\EFBase\bin\Debug\netcoreapp3.1\EFBase.dll
+C:\Users\WL\source\repos\WebApiDemo\EFBase\bin\Debug\netcoreapp3.1\EFBase.pdb
+C:\Users\WL\source\repos\WebApiDemo\EFBase\obj\Debug\netcoreapp3.1\EFBase.AssemblyInfoInputs.cache
+C:\Users\WL\source\repos\WebApiDemo\EFBase\obj\Debug\netcoreapp3.1\EFBase.AssemblyInfo.cs
+C:\Users\WL\source\repos\WebApiDemo\EFBase\obj\Debug\netcoreapp3.1\EFBase.csproj.CoreCompileInputs.cache
+C:\Users\WL\source\repos\WebApiDemo\EFBase\obj\Debug\netcoreapp3.1\EFBase.dll
+C:\Users\WL\source\repos\WebApiDemo\EFBase\obj\Debug\netcoreapp3.1\EFBase.pdb
+C:\Users\WL\source\repos\WebApiDemo\EFBase\obj\Debug\netcoreapp3.1\EFBase.csprojAssemblyReference.cache
+C:\Users\WL\source\repos\WebApiDemo\EFBase\bin\Debug\netcoreapp3.1\WebApiDemo.Model.dll
+C:\Users\WL\source\repos\WebApiDemo\EFBase\bin\Debug\netcoreapp3.1\WebApiDemo.Model.pdb
+C:\Users\WL\source\repos\WebApiDemo\EFBase\bin\Debug\netcoreapp3.1\WebApiDemo.Model.xml
+C:\Users\WL\source\repos\WebApiDemo\EFBase\obj\Debug\netcoreapp3.1\EFBase.csproj.CopyComplete

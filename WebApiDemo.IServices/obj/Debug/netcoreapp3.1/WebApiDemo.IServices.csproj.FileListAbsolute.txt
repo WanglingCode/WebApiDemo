@@ -1,0 +1,13 @@
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\bin\Debug\netcoreapp3.1\WebApiDemo.IServices.deps.json
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\bin\Debug\netcoreapp3.1\WebApiDemo.IServices.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\bin\Debug\netcoreapp3.1\WebApiDemo.IServices.pdb
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\obj\Debug\netcoreapp3.1\WebApiDemo.IServices.csprojAssemblyReference.cache
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\obj\Debug\netcoreapp3.1\WebApiDemo.IServices.AssemblyInfoInputs.cache
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\obj\Debug\netcoreapp3.1\WebApiDemo.IServices.AssemblyInfo.cs
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\obj\Debug\netcoreapp3.1\WebApiDemo.IServices.csproj.CoreCompileInputs.cache
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\obj\Debug\netcoreapp3.1\WebApiDemo.IServices.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\obj\Debug\netcoreapp3.1\WebApiDemo.IServices.pdb
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\bin\Debug\netcoreapp3.1\WebApiDemo.Model.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\bin\Debug\netcoreapp3.1\WebApiDemo.Model.pdb
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\bin\Debug\netcoreapp3.1\WebApiDemo.Model.xml
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.IServices\obj\Debug\netcoreapp3.1\WebApiDemo.IServices.csproj.CopyComplete

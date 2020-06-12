@@ -1,0 +1,17 @@
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.IRepository.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.Model.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.Model.pdb
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.Model.xml
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\obj\Debug\netcoreapp3.1\WebApiDemo.Repository.csprojAssemblyReference.cache
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\obj\Debug\netcoreapp3.1\WebApiDemo.Repository.AssemblyInfoInputs.cache
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\obj\Debug\netcoreapp3.1\WebApiDemo.Repository.AssemblyInfo.cs
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\obj\Debug\netcoreapp3.1\WebApiDemo.Repository.csproj.CoreCompileInputs.cache
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.Repository.deps.json
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.Repository.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.Repository.pdb
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\EFBase.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\WebApiDemo.IRepository.pdb
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\bin\Debug\netcoreapp3.1\EFBase.pdb
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\obj\Debug\netcoreapp3.1\WebApiDemo.Repository.csproj.CopyComplete
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\obj\Debug\netcoreapp3.1\WebApiDemo.Repository.dll
+C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Repository\obj\Debug\netcoreapp3.1\WebApiDemo.Repository.pdb
