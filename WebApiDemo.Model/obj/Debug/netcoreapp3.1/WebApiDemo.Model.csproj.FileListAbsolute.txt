@@ -1,9 +1,0 @@
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\bin\Debug\netcoreapp3.1\WebApiDemo.Model.deps.json
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\bin\Debug\netcoreapp3.1\WebApiDemo.Model.dll
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\bin\Debug\netcoreapp3.1\WebApiDemo.Model.pdb
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\bin\Debug\netcoreapp3.1\WebApiDemo.Model.xml
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\obj\Debug\netcoreapp3.1\WebApiDemo.Model.AssemblyInfoInputs.cache
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\obj\Debug\netcoreapp3.1\WebApiDemo.Model.AssemblyInfo.cs
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\obj\Debug\netcoreapp3.1\WebApiDemo.Model.csproj.CoreCompileInputs.cache
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\obj\Debug\netcoreapp3.1\WebApiDemo.Model.dll
-C:\Users\WL\source\repos\WebApiDemo\WebApiDemo.Model\obj\Debug\netcoreapp3.1\WebApiDemo.Model.pdb
