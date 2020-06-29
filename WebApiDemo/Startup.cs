@@ -13,6 +13,7 @@ using WebApiDemo.IServices;
 using WebApiDemo.Service;
 using WebApiDemo.IServices.Base;
 using WebApiDemo.Service.Base;
+using Autofac;
 
 namespace WebApiDemo
 {
@@ -73,6 +74,11 @@ namespace WebApiDemo
                 //    pattern: "{controller=Home}/{action=Index}/{id?}"
                 //    );
             });
+        }
+
+        public void ConfigureContainer(ContainerBuilder builder)
+        {
+            builder.RegisterModule(new AutofacModuleRegister());
         }
     }
 }

@@ -17,6 +17,7 @@ namespace EFBase.Models
         }
 
         public DbSet<TodoItem> TodoItem { get; set; }
+        public DbSet<User> User { get; set; }
 
     }
 }

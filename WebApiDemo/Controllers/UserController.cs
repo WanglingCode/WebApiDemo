@@ -86,13 +86,16 @@ namespace WebApiDemo.Controllers
 
         private readonly ITodoService _todo;
 
+        private readonly IUserService _userService;
         /// <summary>
         /// 控制器注入service依赖
         /// </summary>
         /// <param name="todo"></param>
-        public UserController(ITodoService todo)
+        /// <param name="userService"></param>
+        public UserController(ITodoService todo, IUserService userService)
         {
             _todo = todo;
+            _userService = userService;
         }
 
         /// <summary>
@@ -152,6 +155,18 @@ namespace WebApiDemo.Controllers
         {
             var todoItem = _todo.Get(t => t.Id == ID);
             return Ok(todoItem);
+        }
+
+        /// <summary>
+        /// 测试autoface
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpGet]
+        public async Task<IActionResult> GetCount()
+        {
+            var count = await _userService.GetCount();
+            return Ok(count);
         }
     }
 }

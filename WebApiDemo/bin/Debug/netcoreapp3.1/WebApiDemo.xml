@@ -51,7 +51,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:WebApiDemo.Controllers.UserController.#ctor(WebApiDemo.IServices.ITodoService)">
+        <member name="M:WebApiDemo.Controllers.UserController.#ctor(WebApiDemo.IServices.ITodoService,WebApiDemo.IServices.IUserService)">
             <summary>
             控制器注入service依赖
             </summary>
@@ -89,6 +89,13 @@
             查询
             </summary>
             <param name="ID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApiDemo.Controllers.UserController.GetCount">
+            <summary>
+            测试autoface
+            </summary>
+            <param name="id"></param>
             <returns></returns>
         </member>
     </members>
