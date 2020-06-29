@@ -14,5 +14,11 @@ namespace WebApiDemo.IServices
         /// </summary>
         /// <returns></returns>
         Task<int> GetCount();
+        /// <summary>
+        /// 根据ID获取用户信息
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        Task<User> QueryByID(int id);
     }
 }

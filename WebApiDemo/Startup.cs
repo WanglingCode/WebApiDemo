@@ -14,6 +14,7 @@ using WebApiDemo.Service;
 using WebApiDemo.IServices.Base;
 using WebApiDemo.Service.Base;
 using Autofac;
+using WebApiDemo.Common.Redis;
 
 namespace WebApiDemo
 {
@@ -39,6 +40,8 @@ namespace WebApiDemo
             services.AddAuthorizationSetup();
             //×¢²áSwagger
             services.AddSwaggerSetup();
+            //×¢²áredis
+            services.AddSingleton<IRedisCacheManager, RedisCacheManager>();
             
         }
 

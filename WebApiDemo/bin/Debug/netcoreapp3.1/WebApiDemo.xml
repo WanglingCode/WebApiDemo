@@ -51,11 +51,13 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:WebApiDemo.Controllers.UserController.#ctor(WebApiDemo.IServices.ITodoService,WebApiDemo.IServices.IUserService)">
+        <member name="M:WebApiDemo.Controllers.UserController.#ctor(WebApiDemo.IServices.ITodoService,WebApiDemo.IServices.IUserService,WebApiDemo.Common.Redis.IRedisCacheManager)">
             <summary>
             控制器注入service依赖
             </summary>
             <param name="todo"></param>
+            <param name="userService"></param>
+            <param name="redisCacheManager"></param>
         </member>
         <member name="M:WebApiDemo.Controllers.UserController.GetTodoList">
             <summary>
@@ -95,7 +97,6 @@
             <summary>
             测试autoface
             </summary>
-            <param name="id"></param>
             <returns></returns>
         </member>
     </members>

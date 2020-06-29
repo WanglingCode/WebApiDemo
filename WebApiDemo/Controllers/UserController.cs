@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApiDemo.Auth;
+using WebApiDemo.Common.Redis;
 using WebApiDemo.IServices;
 using WebApiDemo.Model.Model;
 
@@ -87,15 +88,19 @@ namespace WebApiDemo.Controllers
         private readonly ITodoService _todo;
 
         private readonly IUserService _userService;
+
+        private readonly IRedisCacheManager _redis;
         /// <summary>
         /// 控制器注入service依赖
         /// </summary>
         /// <param name="todo"></param>
         /// <param name="userService"></param>
-        public UserController(ITodoService todo, IUserService userService)
+        /// <param name="redisCacheManager"></param>
+        public UserController(ITodoService todo, IUserService userService, IRedisCacheManager redisCacheManager)
         {
             _todo = todo;
             _userService = userService;
+            _redis = redisCacheManager;
         }
 
         /// <summary>
@@ -160,13 +165,30 @@ namespace WebApiDemo.Controllers
         /// <summary>
         /// 测试autoface
         /// </summary>
-        /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
         public async Task<IActionResult> GetCount()
         {
             var count = await _userService.GetCount();
             return Ok(count);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Redis(int id)
+        {
+            var key = $"Redis{id}";
+            User user = new User();
+            if(_redis.Get<object>(key) != null)
+            {
+                user = _redis.Get<User>(key);
+            }
+            else
+            {
+                user = await _userService.QueryByID(id);
+                _redis.Set(key, user, TimeSpan.FromHours(2));//缓存两小时
+            }
+
+            return Ok(user);
         }
     }
 }

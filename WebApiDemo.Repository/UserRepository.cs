@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApiDemo.IRepository;
@@ -32,6 +33,17 @@ namespace WebApiDemo.Repository
         {
             var i = await Task.Run(() => dbSet.CountAsync(x => 1 == 1));
             return i;
+        }
+
+        /// <summary>
+        /// 获取根据ID获取用户信息
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<User> QueryByID(int id)
+        {
+            User user = await Task.Run(() => dbSet.Where<User>(t => t.Id == id).FirstOrDefault());
+            return user;
         }
     }
 }

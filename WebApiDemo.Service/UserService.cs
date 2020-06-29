@@ -28,5 +28,10 @@ namespace WebApiDemo.Service
         {
             return userDal.GetCount();
         }
+
+        public Task<User> QueryByID(int id) 
+        {
+            return userDal.QueryByID(id);
+        }
     }
 }
